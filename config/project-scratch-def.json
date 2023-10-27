@@ -1,5 +1,5 @@
 {
-  "orgName": "Demo company",
+  "orgName": "DeveloperCarbonDashboard Example",
   "edition": "Developer",
   "features": ["DevelopmentWave", "AnalyticsAdminPerms", "AnalyticsAppEmbedded", "EinsteinAnalyticsPlus", "InsightsPlatform", "EventLogFile", "EnableSetPasswordInApi"],
   "settings": {
@@ -15,7 +15,6 @@
       "enableDeleteMonitoringData": true,
       "enableLoginForensics": true,
       "enableStreamingApi": true,
-      "enableTerminateOldestSession": true,
       "enableDynamicStreamingChannel": false,
       "bypassMeteringBlock" :false,
       "enableEventLogWaveIntegration": true
