@@ -18,8 +18,10 @@ This CRM Analytics templated app requires Event Monitoring and CRM Analytics Gro
 ## Installation Instructions
 
 **Note:** The app has a dependency on:
-*  The latest version of the Event Monitoring analytics app (Version 58.0) with the Append beta feature enabled
-*  only one Event Monitoring analytics app created in the target org.
+*  The latest version of the Event Monitoring analytics app (Version 59.0) [with the Append feature enabled](https://help.salesforce.com/s/articleView?id=release-notes.rn_security_em_append_data_ga.htm&release=246&type=5). The Developer Carbon Dashboard analytics app setup will fail otherwise.
+* If you currently have v58.0 or lower of the Event Monitoring Analytics App, it is recommended that you reconfigure the app, or delete and create a new one.
+* Note that recreating the Event Monitoring app using the Append feature will **your view of event log data to just the previous day** which will increment daily to the 30 day window.
+* Only one Event Monitoring analytics app created in the target org.
     *  Multiple or subsequent Event Monitoring analytics apps creates metadata components with incremental names (e.g. ApexExecution2). Currently the Developer Carbon Dashboard will not use these subsequent apps and components.  You may have to delete all existing Event Monitoring analytics apps and recreate a single app using v58.0 with the Append beta feature enabled.
 
 ### Prerequisite: Setting Up The Log Ingestion process:
@@ -30,35 +32,33 @@ Easy Option: [CRM Analytics Templated App](https://trailhead.salesforce.com/cont
 * Select a sandbox or production org
 * [Ensure Event Monitoring Analytics is enabled](https://help.salesforce.com/s/articleView?id=sf.bi_app_event_monitor_enable_select_PSL.htm&type=5)
 * [Assign permissions to users](https://help.salesforce.com/s/articleView?id=bi_app_event_monitor_create_permsets.htm&type=5&language=en_US)
-* [Create the analytics app](https://help.salesforce.com/s/articleView?language=en_US&type=5&id=sf.bi_app_admin_wave_create.htm)
-    * *Hard Requirement*: **must** include following log types:
-      * ApexSoapWithUsers
-      * ApexRestApiWithUsers
-      * RestApiWithUsers
-      * APIWithUsers
-      * BulkApiWithUsers
-      * DashboardWithUsers
-      * ReportWithUsers
-      * URIWithUsers
-      * VisualforceRequestWithUsers
+* [Create the analytics app using the Append option](https://help.salesforce.com/s/articleView?language=en_US&type=5&id=sf.bi_app_admin_wave_create.htm)
+    * *Hard Requirement*: you **must** select the following log types in the Event Monitoring analytics app wizard:
+      * ApexExecution
+      * ApexTrigger
+      * ApexUnexpectedException
+      * ApexSoap
+      * ApexRestApi
+      * RestApi
+      * API
+      * BulkApi
+      * Dashboard
+      * Report
+      * URI
+      * VisualforceRequest
+* Ensure that the Event Monitoring dataflow is scheduled to run at some frequency in order for the Developer Carbon Dashboard to show updated data.
 
 Harder Option: [Set up a custom process to push Event Logs into CRM Analytics](https://www.salesforcehacker.com/2015/01/simple-script-for-loading-event.html)
 
 ### Deploying Developer Carbon Dashboard
 
-There are two options:
+There are various options:
 
+* Download from [AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=b594a805-ff1a-44f4-80d0-f85625dd001a) and create the 'Developer Carbon Dashboard' app within the Analytics Studio.
 * Deploy CRM Analytics Template Bundle via sfdx source or mdapi deployments
   * Deploy **only** the WaveTemplateBundle metadata type
   * In Analytics Studio:
     * Create -> App -> Developer Carbon Dashboard -> Select existing Event Monitoring app -> name app ("Developer Carbon Dashboard") -> Create
-* Deploy CRM Analytics assets via sfdx source or mdapi deployments
-  * Deploy all metadata types in package.xml **except** WaveTemplateBundle
-  * Upload misc/Instance Carbon Per CPU Reference.csv to Developer Carbon Dashboard app via UI
-  * Run Carbon Emissions and Carbon Emissions Apex recipes
-  * Edit Carbon Emissions dashboard
-    * Edit image placeholder
-    * Upload all .png files in misc folder
 
 ## Solution Overview
 
