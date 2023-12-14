@@ -4,8 +4,8 @@
       "path": "force-app",
       "default": true,
       "package": "Developer Carbon Dashboard",
-      "versionName": "ver 0.7",
-      "versionNumber": "0.7.0.NEXT",
+      "versionName": "ver 0.10",
+      "versionNumber": "0.10.0.NEXT",
       "versionDescription": "The latest released version of the Developer Carbon Dashboard. It surfaces insights into which parts of an org are generating the most emissions so they can be improved.",
       "ancestorVersion": "HIGHEST"
     }
@@ -20,6 +20,9 @@
     "Developer Carbon Dashboard@0.3.0-1": "04tHn000000ybKzIAI",
     "Developer Carbon Dashboard@0.4.0-1": "04tHn000000ybo8IAA",
     "Developer Carbon Dashboard@0.5.0-1": "04tHn000000jxbLIAQ",
-    "Developer Carbon Dashboard@0.6.0-1": "04tHn000000jxbQIAQ"
+    "Developer Carbon Dashboard@0.6.0-1": "04tHn000000jxbQIAQ",
+    "Developer Carbon Dashboard@0.8.0-1": "04tHn000000k8HpIAI",
+    "Developer Carbon Dashboard@0.9.0-1": "04tHn000000k8HuIAI",
+    "Developer Carbon Dashboard@0.10.0-1": "04tHn000000k8HzIAI"
   }
 }
