@@ -1294,7 +1294,7 @@
           "dataset" : {
             "type" : "analyticsDataset",
             "label" : "Aggregated Carbon Emissions",
-            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.Name}",
+            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.FullyQualifiedName}",
             "folderName" : "${App.Folder.FullyQualifiedName}"
           },
           "measuresToCurrencies" : [ ]
