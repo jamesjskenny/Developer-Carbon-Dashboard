@@ -19,10 +19,10 @@ This CRM Analytics templated app requires Event Monitoring and CRM Analytics Gro
 
 **Note:** The app has a dependency on:
 *  The latest version of the Event Monitoring analytics app (Version 59.0) [with the Append feature enabled](https://help.salesforce.com/s/articleView?id=release-notes.rn_security_em_append_data_ga.htm&release=246&type=5). The Developer Carbon Dashboard analytics app setup will fail otherwise.
-* If you currently have v58.0 or lower of the Event Monitoring Analytics App, it is recommended that you reconfigure the app, or delete and create a new one.
+* If you currently have v59.0 or lower of the Event Monitoring Analytics App, it is recommended that you reconfigure the app, or delete and create a new one.
 * Note that recreating the Event Monitoring app using the Append feature will **your view of event log data to just the previous day** which will increment daily to the 30 day window.
 * Only one Event Monitoring analytics app created in the target org.
-    *  Multiple or subsequent Event Monitoring analytics apps creates metadata components with incremental names (e.g. ApexExecution2). Currently the Developer Carbon Dashboard will not use these subsequent apps and components.  You may have to delete all existing Event Monitoring analytics apps and recreate a single app using v58.0 with the Append beta feature enabled.
+    *  Multiple or subsequent Event Monitoring analytics apps creates metadata components with incremental names (e.g. ApexExecution2). Currently the Developer Carbon Dashboard will not use these subsequent apps and components.  You may have to delete all existing Event Monitoring analytics apps and recreate a single app using v59.0 with the Append beta feature enabled.
 
 ### Prerequisite: Setting Up The Log Ingestion process:
 

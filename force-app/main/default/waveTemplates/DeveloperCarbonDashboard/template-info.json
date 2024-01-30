@@ -3,7 +3,7 @@
   "label" : "Developer Carbon Dashboard",
   "name" : "DeveloperCarbonDashboard",
   "description" : "This dashboard uses Event Monitoring and CRM Analytics to illustrate the estimated carbon emissions associated with an org’s usage of Salesforce App Server CPU time via specific features and products.",
-  "assetVersion" : 58.0,
+  "assetVersion" : 59.0,
   "variableDefinition" : "variables.json",
   "uiDefinition" : "ui.json",
   "rules" : [
