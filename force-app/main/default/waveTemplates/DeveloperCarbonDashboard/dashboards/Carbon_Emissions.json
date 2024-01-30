@@ -46,313 +46,6 @@
       },
       {
         "conditionalFormatting" : { },
-        "field" : "API_Details_1.A",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "API_Details_1.B",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "API_Details_1.C",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "API_Details_1.E",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "APISummaryTable_1.F",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "APISummaryTable_1.E",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "APISummaryTable_1.D",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "APISummaryTable_1.C",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "APISummaryTable_1.B",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "APISummaryTable_1.A",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "API_Summary_1.A",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "API_Summary_1.B",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "API_Summary_1.C",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "API_Summary_1.D",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "API_Summary_1.E",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.L",
-        "format" : {
-          "delimiters" : {
-            "decimal" : "."
-          },
-          "customFormat" : "[\"#0.000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.K",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.J",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.I",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.E",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.D",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#,###.##%\",100]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.C",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : {
-          "color" : {
-            "referenceField" : "B",
-            "type" : "multiple",
-            "parameters" : {
-              "bins" : [
-                {
-                  "formatValue" : "#00B531",
-                  "bin" : "*"
-                },
-                {
-                  "formatValue" : "#E84340",
-                  "bin" : "5000"
-                }
-              ]
-            }
-          }
-        },
-        "field" : "Apex_Summary___Synch_1.B",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.F",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.H",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.A",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.N",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.O",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_1.M",
-        "format" : {
-          "delimiters" : {
-            "decimal" : "."
-          },
-          "customFormat" : "[\"#0.000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "ApexExecutionGraph_1.H",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "ApexExecutionGraph_1.G",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "ApexExecutionGraph_1.F",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "ApexExecutionGraph_1.C",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "ApexExecutionGraph_1.B",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "ApexExecutionGraph_1.A",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "ApexExecutionGraph_1.D",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "ApexExecutionGraph_1.E",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "EmissionsTable_1.B",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#,###.##%\",100]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
         "field" : "ApexWaste_1.B",
         "format" : {
           "delimiters" : { },
@@ -447,14 +140,36 @@
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ReportSupOpt_1.G",
+        "field" : "EmissionsTable_1.B",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#,###.##%\",100]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ReportSupOpt_1.F",
         "format" : {
           "delimiters" : { }
         }
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ReportSupOpt_1.D",
+        "field" : "ReportSupOpt_1.B",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ReportSupOpt_1.C",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ReportSupOpt_1.E",
         "format" : {
           "delimiters" : { },
           "customFormat" : "[\"#0.000000000\",1]"
@@ -470,7 +185,7 @@
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ReportSupOpt_1.E",
+        "field" : "ReportSupOpt_1.D",
         "format" : {
           "delimiters" : { },
           "customFormat" : "[\"#0.000000000\",1]"
@@ -478,39 +193,86 @@
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ReportSupOpt_1.C",
+        "field" : "ReportSupOpt_1.G",
         "format" : {
           "delimiters" : { }
         }
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ReportSupOpt_1.B",
+        "field" : "ApexExecutionGraph_1.E",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ApexExecutionGraph_1.D",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ApexExecutionGraph_1.A",
         "format" : {
           "delimiters" : { }
         }
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ReportSupOpt_1.F",
+        "field" : "ApexExecutionGraph_1.B",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ApexExecutionGraph_1.C",
         "format" : {
           "delimiters" : { }
         }
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ExceptionsCarbonTabl_1.M",
+        "field" : "ApexExecutionGraph_1.F",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ApexExecutionGraph_1.G",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ApexExecutionGraph_1.H",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_1.M",
         "format" : {
           "delimiters" : {
-            "thousands" : ",",
             "decimal" : "."
           },
-          "customFormat" : "[\"#,###.######\",1]"
+          "customFormat" : "[\"#0.000000\",1]"
         }
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ExceptionsCarbonTabl_1.L",
+        "field" : "Apex_Summary___Synch_1.O",
         "format" : {
           "delimiters" : { },
           "customFormat" : "[\"#0.000000000000\",1]"
@@ -518,7 +280,7 @@
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ExceptionsCarbonTabl_1.I",
+        "field" : "Apex_Summary___Synch_1.N",
         "format" : {
           "delimiters" : { },
           "customFormat" : "[\"#0.000000000000\",1]"
@@ -526,40 +288,127 @@
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ExceptionsCarbonTabl_1.J",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "ExceptionsCarbonTabl_1.K",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "ExceptionsCarbonTabl_1.A",
+        "field" : "Apex_Summary___Synch_1.A",
         "format" : {
           "delimiters" : { }
         }
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ExceptionsCarbonTabl_1.H",
+        "field" : "Apex_Summary___Synch_1.H",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_1.F",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : {
+          "color" : {
+            "referenceField" : "B",
+            "type" : "multiple",
+            "parameters" : {
+              "bins" : [
+                {
+                  "formatValue" : "#00B531",
+                  "bin" : "*"
+                },
+                {
+                  "formatValue" : "#E84340",
+                  "bin" : "5000"
+                }
+              ]
+            }
+          }
+        },
+        "field" : "Apex_Summary___Synch_1.B",
         "format" : {
           "delimiters" : { }
         }
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ExceptionsCarbonTabl_1.F",
+        "field" : "Apex_Summary___Synch_1.C",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_1.D",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#,###.##%\",100]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_1.E",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_1.I",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_1.J",
         "format" : {
           "delimiters" : { },
           "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_1.K",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_1.L",
+        "format" : {
+          "delimiters" : {
+            "decimal" : "."
+          },
+          "customFormat" : "[\"#0.000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ExceptionsCarbonTabl_1.E",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ExceptionsCarbonTabl_1.D",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#,###.##%\",100]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ExceptionsCarbonTabl_1.C",
+        "format" : {
+          "delimiters" : { }
         }
       },
       {
@@ -588,14 +437,79 @@
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ExceptionsCarbonTabl_1.C",
+        "field" : "ExceptionsCarbonTabl_1.F",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ExceptionsCarbonTabl_1.H",
         "format" : {
           "delimiters" : { }
         }
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ExceptionsCarbonTabl_1.D",
+        "field" : "ExceptionsCarbonTabl_1.A",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ExceptionsCarbonTabl_1.K",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ExceptionsCarbonTabl_1.J",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ExceptionsCarbonTabl_1.I",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ExceptionsCarbonTabl_1.L",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "ExceptionsCarbonTabl_1.M",
+        "format" : {
+          "delimiters" : {
+            "thousands" : ",",
+            "decimal" : "."
+          },
+          "customFormat" : "[\"#,###.######\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_2.E",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_2.D",
         "format" : {
           "delimiters" : { },
           "customFormat" : "[\"#,###.##%\",100]"
@@ -603,73 +517,9 @@
       },
       {
         "conditionalFormatting" : { },
-        "field" : "ExceptionsCarbonTabl_1.E",
+        "field" : "Apex_Summary___Synch_2.C",
         "format" : {
           "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_2.M",
-        "format" : {
-          "delimiters" : {
-            "decimal" : "."
-          },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_2.L",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_2.I",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_2.J",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_2.K",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_2.A",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_2.H",
-        "format" : {
-          "delimiters" : { }
-        }
-      },
-      {
-        "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_2.F",
-        "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#0.000000000000\",1]"
         }
       },
       {
@@ -698,22 +548,172 @@
       },
       {
         "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_2.C",
+        "field" : "Apex_Summary___Synch_2.F",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_2.H",
         "format" : {
           "delimiters" : { }
         }
       },
       {
         "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_2.D",
+        "field" : "Apex_Summary___Synch_2.A",
         "format" : {
-          "delimiters" : { },
-          "customFormat" : "[\"#,###.##%\",100]"
+          "delimiters" : { }
         }
       },
       {
         "conditionalFormatting" : { },
-        "field" : "Apex_Summary___Synch_2.E",
+        "field" : "Apex_Summary___Synch_2.K",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_2.J",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_2.I",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_2.L",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "Apex_Summary___Synch_2.M",
+        "format" : {
+          "delimiters" : {
+            "decimal" : "."
+          },
+          "customFormat" : "[\"#0.000000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "API_Summary_1.E",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "API_Summary_1.D",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "API_Summary_1.C",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "API_Summary_1.B",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "API_Summary_1.A",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "APISummaryTable_1.A",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "APISummaryTable_1.B",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "APISummaryTable_1.C",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "APISummaryTable_1.D",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "APISummaryTable_1.E",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "APISummaryTable_1.F",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "API_Details_1.E",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#0.000000000\",1]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "API_Details_1.C",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "API_Details_1.B",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "API_Details_1.A",
         "format" : {
           "delimiters" : { }
         }
@@ -2086,7 +2086,7 @@
         "broadcastFacet" : true,
         "datasets" : [
           {
-            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.FullyQualifiedName}"
+            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.Name}"
           }
         ],
         "isGlobal" : false,
@@ -2202,7 +2202,7 @@
         "broadcastFacet" : true,
         "datasets" : [
           {
-            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.FullyQualifiedName}"
+            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.Name}"
           }
         ],
         "isGlobal" : false,
@@ -2372,7 +2372,7 @@
         "broadcastFacet" : true,
         "datasets" : [
           {
-            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.FullyQualifiedName}"
+            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.Name}"
           }
         ],
         "isGlobal" : false,
@@ -2816,7 +2816,7 @@
         "broadcastFacet" : true,
         "datasets" : [
           {
-            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.FullyQualifiedName}"
+            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.Name}"
           }
         ],
         "isGlobal" : false,
@@ -3552,7 +3552,7 @@
         "broadcastFacet" : true,
         "datasets" : [
           {
-            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.FullyQualifiedName}"
+            "name" : "${App.Datasets.AggregatedCarbonEmissions_tp.Name}"
           }
         ],
         "isGlobal" : false,
@@ -3651,7 +3651,7 @@
         "broadcastFacet" : true,
         "datasets" : [
           {
-            "name" : "${Apps.AdminAnalytics.Datasets.ReportWithUsers.FullyQualifiedName}"
+            "name" : "${Apps.AdminAnalytics.Datasets.ReportWithUsers.Name}"
           }
         ],
         "isGlobal" : false,
@@ -3688,7 +3688,7 @@
                 "all"
               ],
               "joins" : [ ],
-              "name" : "${Apps.AdminAnalytics.Datasets.ReportWithUsers.FullyQualifiedName}"
+              "name" : "${App.Datasets.ReportWithUsers.FullyQualifiedName}"
             },
             {
               "columns" : [
@@ -3713,7 +3713,7 @@
                 "all"
               ],
               "joins" : [ ],
-              "name" : "${Apps.AdminAnalytics.Datasets.ReportWithUsers.FullyQualifiedName}"
+              "name" : "${App.Datasets.ReportWithUsers.FullyQualifiedName}"
             },
             {
               "columns" : [
@@ -3738,7 +3738,7 @@
                 "all"
               ],
               "joins" : [ ],
-              "name" : "${Apps.AdminAnalytics.Datasets.ReportWithUsers.FullyQualifiedName}"
+              "name" : "${App.Datasets.ReportWithUsers.FullyQualifiedName}"
             },
             {
               "columns" : [
@@ -4132,7 +4132,7 @@
         "broadcastFacet" : true,
         "datasets" : [
           {
-            "name" : "${Apps.AdminAnalytics.Datasets.ReportWithUsers.FullyQualifiedName}"
+            "name" : "${Apps.AdminAnalytics.Datasets.ReportWithUsers.Name}"
           }
         ],
         "isGlobal" : false,
@@ -4151,7 +4151,7 @@
           ],
           "rowTotals" : [ ],
           "sourceFilters" : {
-            "${Apps.AdminAnalytics.Datasets.ReportWithUsers.FullyQualifiedName}" : {
+            "${App.Datasets.ReportWithUsers.FullyQualifiedName}" : {
               "filters" : [
                 [
                   "RUN_TIME",
@@ -4190,7 +4190,7 @@
               "filters" : [ ],
               "groups" : [ ],
               "joins" : [ ],
-              "name" : "${Apps.AdminAnalytics.Datasets.ReportWithUsers.FullyQualifiedName}"
+              "name" : "${App.Datasets.ReportWithUsers.FullyQualifiedName}"
             }
           ]
         },
@@ -4480,7 +4480,7 @@
         "broadcastFacet" : true,
         "datasets" : [
           {
-            "name" : "${Apps.AdminAnalytics.Datasets.ReportWithUsers.FullyQualifiedName}"
+            "name" : "${Apps.AdminAnalytics.Datasets.ReportWithUsers.Name}"
           }
         ],
         "isGlobal" : false,

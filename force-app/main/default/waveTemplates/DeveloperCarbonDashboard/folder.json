@@ -1,6 +1,6 @@
 {
-  "name" : "DeveloperCarbonDashboard",
-  "label" : "Developer Carbon Dashboard",
+  "name" : "Developer_Carbon_Dashboard",
+  "label" : "Developer Carbon Dashboard"
   "shares" : [
     {
       "accessType" : "Edit",

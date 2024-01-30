@@ -17,7 +17,7 @@
     }
   ],
   "releaseInfo" : {
-    "templateVersion" : "1.0",
+    "templateVersion" : "1.2",
     "notesFile" : "releaseNotes.html"
   },
   "folderDefinition" : "folder.json",
@@ -47,17 +47,17 @@
   "eltDataflows" : [ ],
   "recipes" : [
     {
-      "label" : "Carbon Emissions Apex",
-      "name" : "CarbonEmissionsApex",
-      "condition" : "${Variables.Overrides.createAllRecipes}",
-      "file" : "recipes/CarbonEmissionsApex.json",
-      "executeCondition" : "CreateSyncExecute"
-    },
-    {
       "label" : "Carbon Emissions",
       "name" : "Carbon_Emissions",
       "condition" : "${Variables.Overrides.createAllRecipes}",
       "file" : "recipes/Carbon_Emissions.json",
+      "executeCondition" : "CreateSyncExecute"
+    },
+    {
+      "label" : "Carbon Emissions Apex",
+      "name" : "CarbonEmissionsApex",
+      "condition" : "${Variables.Overrides.createAllRecipes}",
+      "file" : "recipes/CarbonEmissionsApex.json",
       "executeCondition" : "CreateSyncExecute"
     }
   ],
@@ -93,6 +93,7 @@
       "userXmd" : "dataset_files/OrgInfo_XMD.json"
     }
   ],
+  "dataModelObjects" : [ ],
   "storedQueries" : [ ],
   "imageFiles" : [
     {
@@ -141,8 +142,13 @@
     {
       "namespace" : "sfdc_internal",
       "name" : "AdminAnalytics",
-      "templateVersion" : ">=58.0"
+      "templateVersion" : ">=59.0"
     }
+  ],
+  "tags" : [
+    "Sustainability",
+    "Emissions Reduction",
+    "Trending"
   ],
   "icons" : {
     "appBadge" : {
@@ -152,14 +158,11 @@
       "name" : "admin.png"
     },
     "templatePreviews" : [
-      { "name": "DeveloperCarbonDashboardTemplatePreviewImage",
-        "label": "Developer Carbon Dashboard Template",
-        "description": "This dashboard uses Event Monitoring and CRM Analytics to illustrate the estimated carbon emissions associated with an org’s usage of Salesforce App Server CPU time via specific features and products."}
+      {
+        "name" : "DeveloperCarbonDashboardTemplatePreviewImage",
+        "label" : "Developer Carbon Dashboard Template",
+        "description" : "This dashboard uses Event Monitoring and CRM Analytics to illustrate the estimated carbon emissions associated with an org’s usage of Salesforce App Server CPU time via specific features and products."
+      }
     ]
-  },
-  "tags": [
-     "Sustainability",
-     "Emissions Reduction",
-     "Trending"
-  ]
+  }
 }
